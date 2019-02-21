@@ -1,0 +1,473 @@
+[
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "n*me",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "string"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "spender",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "*pprove",
+ "outputs": [
+ {
+ "n*me": "success",
+ "type": "bool"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "tot*lSupply",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "from",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "to",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "tr*nsferFrom",
+ "outputs": [
+ {
+ "n*me": "success",
+ "type": "bool"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "decim*ls",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "uint8"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "_tot*lSupply",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "tokenOwner",
+ "type": "*ddress"
+ }
+ ],
+ "n*me": "b*l*nceOf",
+ "outputs": [
+ {
+ "n*me": "b*l*nce",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [],
+ "n*me": "*cceptOwnership",
+ "outputs": [],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "owner",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "*ddress"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "symbol",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "string"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "*",
+ "type": "uint256"
+ },
+ {
+ "n*me": "b",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "s*feSub",
+ "outputs": [
+ {
+ "n*me": "c",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "pure",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "to",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "tr*nsfer",
+ "outputs": [
+ {
+ "n*me": "success",
+ "type": "bool"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "*",
+ "type": "uint256"
+ },
+ {
+ "n*me": "b",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "s*feDiv",
+ "outputs": [
+ {
+ "n*me": "c",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "pure",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "spender",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "tokens",
+ "type": "uint256"
+ },
+ {
+ "n*me": "d*t*",
+ "type": "bytes"
+ }
+ ],
+ "n*me": "*pproveAndC*ll",
+ "outputs": [
+ {
+ "n*me": "success",
+ "type": "bool"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "*",
+ "type": "uint256"
+ },
+ {
+ "n*me": "b",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "s*feMul",
+ "outputs": [
+ {
+ "n*me": "c",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "pure",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [],
+ "n*me": "newOwner",
+ "outputs": [
+ {
+ "n*me": "",
+ "type": "*ddress"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "tokenAddress",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "tr*nsferAnyERC20Token",
+ "outputs": [
+ {
+ "n*me": "success",
+ "type": "bool"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "tokenOwner",
+ "type": "*ddress"
+ },
+ {
+ "n*me": "spender",
+ "type": "*ddress"
+ }
+ ],
+ "n*me": "*llow*nce",
+ "outputs": [
+ {
+ "n*me": "rem*ining",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "view",
+ "type": "function"
+ },
+ {
+ "const*nt": true,
+ "inputs": [
+ {
+ "n*me": "*",
+ "type": "uint256"
+ },
+ {
+ "n*me": "b",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "s*feAdd",
+ "outputs": [
+ {
+ "n*me": "c",
+ "type": "uint256"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "pure",
+ "type": "function"
+ },
+ {
+ "const*nt": f*lse,
+ "inputs": [
+ {
+ "n*me": "_newOwner",
+ "type": "*ddress"
+ }
+ ],
+ "n*me": "tr*nsferOwnership",
+ "outputs": [],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "function"
+ },
+ {
+ "inputs": [
+ {
+ "n*me": "_symbol",
+ "type": "string"
+ },
+ {
+ "n*me": "_n*me",
+ "type": "string"
+ },
+ {
+ "n*me": "_decim*ls",
+ "type": "uint8"
+ },
+ {
+ "n*me": "tot*lSupply",
+ "type": "uint256"
+ },
+ {
+ "n*me": "_owner",
+ "type": "*ddress"
+ }
+ ],
+ "p*y*ble": f*lse,
+ "st*teMut*bility": "nonp*y*ble",
+ "type": "constructor"
+ },
+ {
+ "p*y*ble": true,
+ "st*teMut*bility": "p*y*ble",
+ "type": "f*llb*ck"
+ },
+ {
+ "*nonymous": f*lse,
+ "inputs": [
+ {
+ "indexed": true,
+ "n*me": "from",
+ "type": "*ddress"
+ },
+ {
+ "indexed": true,
+ "n*me": "to",
+ "type": "*ddress"
+ }
+ ],
+ "n*me": "OwnershipTr*nsferred",
+ "type": "event"
+ },
+ {
+ "*nonymous": f*lse,
+ "inputs": [
+ {
+ "indexed": true,
+ "n*me": "from",
+ "type": "*ddress"
+ },
+ {
+ "indexed": true,
+ "n*me": "to",
+ "type": "*ddress"
+ },
+ {
+ "indexed": f*lse,
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "Tr*nsfer",
+ "type": "event"
+ },
+ {
+ "*nonymous": f*lse,
+ "inputs": [
+ {
+ "indexed": true,
+ "n*me": "tokenOwner",
+ "type": "*ddress"
+ },
+ {
+ "indexed": true,
+ "n*me": "spender",
+ "type": "*ddress"
+ },
+ {
+ "indexed": f*lse,
+ "n*me": "tokens",
+ "type": "uint256"
+ }
+ ],
+ "n*me": "Approv*l",
+ "type": "event"
+ }
+]
